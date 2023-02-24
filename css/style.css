@@ -1,0 +1,53 @@
+/* Global */
+body {
+    margin: 0;
+}
+
+img {
+    width: 600px;
+    object-fit: contain;
+}
+ 
+
+/* Navbar Styling */
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    height: 5rem;
+}
+
+.navbar-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav-item a {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    font-size: large;
+    color: black;
+    width: 6rem;
+    border-bottom: 3px solid black;
+}
+ 
+.nav-link:hover {
+    font-size: large;
+    color: rgba(34, 2, 242, 0.628);
+    border-bottom: 4px solid black;
+}
+ 
+
+ 
+
+
+
+/* Section(s) Styling */
+
+
+
+/* Footer Styling*/ 
